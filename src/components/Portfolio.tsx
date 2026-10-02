@@ -15,6 +15,7 @@ import {
   Languages,
   Linkedin,
   Menu,
+  Network,
   ShieldCheck,
   Terminal,
   X,
@@ -25,6 +26,7 @@ const navItems = [
   ["experience", "Experience"],
   ["skills", "Skills"],
   ["projects", "Projects"],
+  ["research", "Research"],
   ["achievements", "Achievements"],
   ["contact", "Contact"],
 ] as const;
@@ -269,8 +271,25 @@ function Portfolio() {
           </div>
         </CinematicSection>
 
+        <CinematicSection id="research" className="research-section">
+          <SectionHeading number="05" label="Research" title="LLM-assisted power-system optimization." intro="Research work at VIT Chennai connecting language models with scenario-based energy balancing workflows." />
+          <article className="research-feature content-reveal">
+            <div className="research-mark" aria-hidden="true"><Network size={30} /><span>R/01</span></div>
+            <div className="research-body">
+              <p>VIT Chennai · Aug 2025 — Aug 2026</p>
+              <h3>LLM-Assisted Power System Optimization</h3>
+              <ul>
+                <li>Designed an LLM-assisted framework for Stochastic Unit Commitment.</li>
+                <li>Integrated LLM APIs with Python optimization pipelines.</li>
+                <li>Implemented scenario-based energy balancing workflows.</li>
+              </ul>
+              <div className="tag-list"><span>LLM APIs</span><span>Python</span><span>Stochastic Unit Commitment</span><span>Energy Balancing</span></div>
+            </div>
+          </article>
+        </CinematicSection>
+
         <CinematicSection id="achievements" className="achievements-section">
-          <SectionHeading number="05" label="Achievements" title="Measured progress." />
+          <SectionHeading number="06" label="Achievements" title="Measured progress." />
           <div className="achievement-grid">
             <article className="achievement-card feature-achievement content-reveal"><Award size={25} /><span>GHC’26 · IIT MADRAS</span><strong>First Runner-up</strong><p>Vacuum Pump Technology</p></article>
             <article className="achievement-card content-reveal"><Terminal size={23} /><span>CODECHEF</span><strong>1081</strong><p>Rating</p></article>
@@ -280,7 +299,7 @@ function Portfolio() {
         </CinematicSection>
 
         <CinematicSection id="contact" className="contact-section">
-          <p className="section-label content-reveal"><span>06</span> // CONTACT</p>
+          <p className="section-label content-reveal"><span>07</span> // CONTACT</p>
           <div className="contact-grid">
             <h2 className="content-reveal">Let’s connect<br /><em>and build.</em></h2>
             <div className="contact-copy content-reveal"><p>Find my code and current work through the profiles below.</p><div className="contact-links"><ExternalLink href={links.linkedin}><Linkedin size={18} /> LinkedIn <ArrowUpRight size={15} /></ExternalLink><ExternalLink href={links.github}><Github size={18} /> GitHub <ArrowUpRight size={15} /></ExternalLink></div></div>
