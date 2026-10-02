@@ -1,5 +1,7 @@
-# Portfolio build
-- [ ] Await exact uploaded mountain portrait for the opening section
-- [ ] Await exact uploaded Dromos IIT Madras stage photo for the Dromos spotlight
-- [x] Complete the full portfolio presentation
-- [x] Verify the portfolio across desktop and mobile
+# Portfolio resume update
+- [ ] Replace all content with verified resume details only
+- [ ] Restructure sections to Hero, About, Experience, Skills, Projects, Achievements, Contact
+- [ ] Add reversible mechanical scroll transitions and hero opening sequence
+- [ ] Respect reduced motion and keep navigation accessible
+- [ ] Verify desktop and mobile behavior
+- [ ] Await exact uploaded mountain and Dromos photos
