@@ -1,19 +1,17 @@
-# Swapnil Jaiswal Developer Portfolio
+# Resume-aligned cinematic portfolio update
 
-## Build
-- Replace the blank page with a polished single-page portfolio using the requested dark engineering visual language, cyan accents, grid texture, glass panels, soft glow, and restrained motion.
-- Add a sticky responsive navigation with active-section tracking, accessible mobile menu, smooth scrolling, strong focus states, and GitHub/LinkedIn actions.
-- Create reusable section, project, skill, and link components for Hero, About, Skills, Dromos Spotlight, Projects, Research, GitHub, and Contact.
-- Use Swapnil’s public GitHub avatar as the personal portrait and create a purpose-built Dromos engineering visual for the spotlight.
-- Clearly separate established skills from tools and research areas currently being explored.
+## Content and structure
+- Treat the verified resume details as the only source of truth and remove unsupported older claims, tools, projects, awards, and contact details.
+- Reorganize the single-page flow into Hero, About, Experience, Skills, Projects, Achievements, and Contact.
+- Present VIT Chennai education, the research internship, and Dromos experience with exact dates, responsibilities, CGPA, and verified achievement wording.
+- Limit projects to CADFS and FireWatch India, and update skills, languages, competitive programming, and certification exactly as supplied.
 
-## Content
-- Use only the supplied education, team role, achievements, technical interests, projects, links, and research status.
-- Keep project descriptions concise and technically specific, with working repository links and technology labels.
-- Make ongoing work explicit and avoid inventing employment, publications, dates, or metrics.
+## Cinematic interaction
+- Add a consistent mechanical reveal system to each major section using paired shutter panels, center apertures, technical guide lines, and scroll-progress transforms.
+- Make transitions reversible on upward scroll, with readable content remaining stable after each reveal.
+- Add a distinct initial hero sequence, restrained depth/scale movement, and subtle engineering-interface details.
+- Preserve sticky navigation, active section tracking, natural browser scrolling, keyboard access, and a reduced-motion fallback.
 
-## Technical details
-- Implement with React, TypeScript, Tailwind v4, semantic HTML, and Lucide icons.
-- Define all visual colors, shadows, fonts, and animation tokens in the shared design system.
-- Add page-specific title, description, Open Graph, and Twitter metadata.
-- Verify the final page at desktop and mobile sizes, including navigation, external links, layout, accessibility basics, and current preview errors.
+## Verification
+- Check desktop and mobile layouts, section navigation, external links, readable transition states, reduced-motion behavior, console errors, and preview health.
+- Keep the dedicated photo placements ready; exact uploaded images remain pending because they are not currently available to the project.
