@@ -4,10 +4,10 @@ import Portfolio from "../components/Portfolio";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Swapnil Jaiswal — Cyber Physical Systems Engineer" },
-      { name: "description", content: "Developer portfolio of Swapnil Jaiswal, a Cyber Physical Systems student and Dromos Hyperloop subsystem engineer." },
-      { property: "og:title", content: "Swapnil Jaiswal — Developer & Systems Engineer" },
-      { property: "og:description", content: "Projects in cyber physical systems, machine learning, optimization and high-performance engineering." },
+      { title: "Swapnil Jaiswal — Computer Science & Cyber Physical Systems" },
+      { name: "description", content: "Portfolio of Swapnil Jaiswal, a VIT Chennai Computer Science student specializing in Cyber Physical Systems." },
+      { property: "og:title", content: "Swapnil Jaiswal — Engineering Portfolio" },
+      { property: "og:description", content: "Research, engineering experience and projects across optimization, thermal systems and software." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
