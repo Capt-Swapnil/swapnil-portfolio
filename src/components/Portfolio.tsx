@@ -6,7 +6,6 @@ import {
   Cpu,
   Github,
   Linkedin,
-  Mail,
   Menu,
   Microscope,
   Orbit,
@@ -269,7 +268,7 @@ function Portfolio() {
           <p className="section-label reveal">// 07 / CONTACT</p>
           <div className="contact-grid">
             <h2 className="reveal">Let’s build something<br /><em>that matters.</em></h2>
-            <div className="contact-copy reveal"><p>I’m always interested in ambitious engineering problems, thoughtful collaborations and conversations about systems that should exist.</p><div className="contact-links"><ExternalLink href={links.linkedin}><Linkedin size={18} /> LinkedIn <ArrowUpRight size={15} /></ExternalLink><ExternalLink href={links.github}><Github size={18} /> GitHub <ArrowUpRight size={15} /></ExternalLink><a href="mailto:capt.swapnil@outlook.com"><Mail size={18} /> Email <ArrowUpRight size={15} /></a></div></div>
+            <div className="contact-copy reveal"><p>I’m always interested in ambitious engineering problems, thoughtful collaborations and conversations about systems that should exist.</p><div className="contact-links"><ExternalLink href={links.linkedin}><Linkedin size={18} /> LinkedIn <ArrowUpRight size={15} /></ExternalLink><ExternalLink href={links.github}><Github size={18} /> GitHub <ArrowUpRight size={15} /></ExternalLink></div></div>
           </div>
         </section>
       </main>

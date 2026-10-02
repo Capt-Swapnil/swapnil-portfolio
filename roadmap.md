@@ -1,4 +1,5 @@
 # Portfolio build
-- [ ] Use the uploaded mountain portrait in the opening section
-- [ ] Use the uploaded Dromos IIT Madras stage photo in the Dromos spotlight
-- [ ] Complete and verify the full portfolio
+- [ ] Await exact uploaded mountain portrait for the opening section
+- [ ] Await exact uploaded Dromos IIT Madras stage photo for the Dromos spotlight
+- [x] Complete the full portfolio presentation
+- [ ] Verify the portfolio across desktop and mobile
