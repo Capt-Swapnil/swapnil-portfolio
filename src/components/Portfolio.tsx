@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import dromosPresentationAsset from "../assets/dromos-iit-madras-presentation.jpg.asset.json";
-import mountainPortraitAsset from "../assets/swapnil-mountain-portrait.jpg.asset.json";
+import mountainPortraitAsset from "../assets/swapnil-hero-portrait.jpg.asset.json";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -135,7 +135,7 @@ function Header() {
 function Portrait() {
   return (
     <figure className="portrait-frame hero-portrait">
-      <img src={mountainPortraitAsset.url} alt="Swapnil Jaiswal standing at a mountain viewpoint" fetchPriority="high" />
+      <img src={mountainPortraitAsset.url} alt="Portrait of Swapnil Jaiswal" fetchPriority="high" />
       <div className="portrait-index">01 — CHENNAI, IN</div>
       <div className="corner corner-a" /><div className="corner corner-b" />
     </figure>
