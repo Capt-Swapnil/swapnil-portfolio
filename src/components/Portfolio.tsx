@@ -93,7 +93,7 @@ function SectionHeading({ number, label, title, intro }: { number: string; label
   const titleId = `${label.toLowerCase().replaceAll(" ", "-")}-title`;
   return (
     <div className="section-heading content-reveal">
-      <p className="section-label"><span>{number}</span> // {label}</p>
+      <p className="section-label"><span>{number}</span>{"\u00a0\u00a0"}{label.toUpperCase()}</p>
       <div className="section-title-row">
         <h2 id={titleId}>{title}</h2>
         {intro && <p>{intro}</p>}
@@ -206,7 +206,7 @@ function Portfolio() {
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero-opening" aria-hidden="true"><span /><span /></div>
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Computer Science · Cyber Physical Systems</p>
+            <p className="eyebrow"><span /> COMPUTER SCIENCE · CYBER PHYSICAL SYSTEMS</p>
             <h1 id="hero-title">Swapnil<br /><em>Jaiswal.</em></h1>
             <p className="hero-intro">B.Tech student at VIT Chennai building across systems engineering, software and applied optimization.</p>
             <div className="hero-actions">
@@ -302,7 +302,7 @@ function Portfolio() {
         </CinematicSection>
 
         <CinematicSection id="contact" className="contact-section">
-          <p className="section-label content-reveal"><span>07</span> // CONTACT</p>
+          <p className="section-label content-reveal"><span>07</span>{"\u00a0"}CONTACT</p>
           <div className="contact-grid">
             <h2 className="content-reveal">Let’s connect<br /><em>and build.</em></h2>
             <div className="contact-copy content-reveal"><p>Find my code and current work through the profiles below.</p><div className="contact-links"><ExternalLink href={links.linkedin}><Linkedin size={18} /> LinkedIn <ArrowUpRight size={15} /></ExternalLink><ExternalLink href={links.github}><Github size={18} /> GitHub <ArrowUpRight size={15} /></ExternalLink></div></div>
