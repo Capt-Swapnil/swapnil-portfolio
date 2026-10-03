@@ -1,4 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
+import dromosPresentationAsset from "../assets/dromos-iit-madras-presentation.jpg.asset.json";
+import mountainPortraitAsset from "../assets/swapnil-mountain-portrait.jpg.asset.json";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -130,13 +132,13 @@ function Header() {
   );
 }
 
-function PortraitPlaceholder() {
+function Portrait() {
   return (
-    <div className="portrait-frame hero-portrait" aria-label="Reserved for Swapnil Jaiswal's mountain portrait">
-      <div className="portrait-fallback"><span>SJ</span><p>PORTRAIT INPUT / PENDING</p></div>
+    <figure className="portrait-frame hero-portrait">
+      <img src={mountainPortraitAsset.url} alt="Swapnil Jaiswal standing at a mountain viewpoint" fetchPriority="high" />
       <div className="portrait-index">01 — CHENNAI, IN</div>
       <div className="corner corner-a" /><div className="corner corner-b" />
-    </div>
+    </figure>
   );
 }
 
@@ -213,7 +215,7 @@ function Portfolio() {
             </div>
             <div className="hero-meta"><span>VIT CHENNAI</span><span>2024 — 2028</span><span>CGPA 8.88</span></div>
           </div>
-          <PortraitPlaceholder />
+          <Portrait />
           <div className="hero-system-readout" aria-hidden="true"><span>SYS.INIT</span><i /><span>2026</span></div>
         </section>
 
@@ -240,9 +242,10 @@ function Portfolio() {
               <li>Represented the team at GHC’26, IIT Madras, helping secure a winning position.</li>
             </ExperienceItem>
           </div>
-          <div className="dromos-stage content-reveal" role="img" aria-label="Reserved for the Dromos IIT Madras stage photograph">
-            <div><ShieldCheck size={42} /><span>DROMOS / GHC’26</span><small>STAGE IMAGE INPUT / PENDING</small></div>
-          </div>
+          <figure className="dromos-stage content-reveal">
+            <img src={dromosPresentationAsset.url} alt="Swapnil Jaiswal presenting the Dromos Hyperloop thermal system at IIT Madras" loading="lazy" />
+            <figcaption><ShieldCheck size={22} /><span>DROMOS / GHC’26 · IIT MADRAS</span></figcaption>
+          </figure>
         </CinematicSection>
 
         <CinematicSection id="skills" className="skills-section">
