@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
-import dromosPresentationAsset from "../assets/dromos-iit-madras-presentation.jpg.asset.json";
-import mountainPortraitAsset from "../assets/swapnil-hero-portrait.jpg.asset.json";
+import dromosPresentation from "../assets/dromos-iit-madras-presentation.jpg";
+import mountainPortrait from "../assets/swapnil-hero-portrait.jpg";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -135,7 +135,7 @@ function Header() {
 function Portrait() {
   return (
     <figure className="portrait-frame hero-portrait">
-      <img src={mountainPortraitAsset.url} alt="Portrait of Swapnil Jaiswal" fetchPriority="high" />
+      <img src={mountainPortrait} alt="Portrait of Swapnil Jaiswal" fetchPriority="high" />
       <div className="portrait-index">01 — CHENNAI, IN</div>
       <div className="corner corner-a" /><div className="corner corner-b" />
     </figure>
@@ -243,7 +243,7 @@ function Portfolio() {
             </ExperienceItem>
           </div>
           <figure className="dromos-stage content-reveal">
-            <img src={dromosPresentationAsset.url} alt="Swapnil Jaiswal presenting the Dromos Hyperloop thermal system at IIT Madras" loading="lazy" />
+            <img src={dromosPresentation} alt="Swapnil Jaiswal presenting the Dromos Hyperloop thermal system at IIT Madras" loading="lazy" />
             <figcaption><ShieldCheck size={22} /><span>DROMOS / GHC’26 · IIT MADRAS</span></figcaption>
           </figure>
         </CinematicSection>
